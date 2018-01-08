@@ -46,24 +46,24 @@
   <body>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">George Holt</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="#">Contact</a></li>  
-            </ul>
-          </div><!--/.nav-collapse -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">George Holt</a>
         </div>
-      </nav>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Contact</a></li>  
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
     <div class="container">
       <div class="container">
@@ -80,19 +80,14 @@
             <li>Away/Tentative - No firm commitment</li>
             <li>Busy - I've made a commitment at this time</li>
           </ul>
+          <p><small>Note: the frame below includes an Office365 website. I can't make it any faster, but it has the data we need.</small></p>
           <p>&NonBreakingSpace;</p>
       </div>
-    </div> <!-- /container -->
-          <object type="text/html" id="Cal" width="100%" height="1500px" data="https://outlook.office365.com/owa/calendar/0367ca688e824fcea134c499be2cca26@microsoft.com/1e9134720c604533a3d48921a3eb600c8059573303010666162/calendar.html"> </object>
-  
-
-
-
-
- <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+      </div> <!-- /container -->
+      <div>
+        <object type="text/html" id="Cal" width="100%" height="1500px" data="https://outlook.office365.com/owa/calendar/0367ca688e824fcea134c499be2cca26@microsoft.com/1e9134720c604533a3d48921a3eb600c8059573303010666162/calendar.html"> </object>
+      </div>
+   
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
